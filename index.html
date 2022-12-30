@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" target="_blank">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跑跑卡丁車韓職專區</title>
+
+    <!--Google Font: Montserrat & Noto Sans TC-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+TC:wght@300&display=swap"
+        rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/dist/css/style.css">
+
+    <!--Java Script-->
+    <script src="https://cdn.staticfile.org/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="assets/dist/js/javascript.js"></script>
+    <script src="assets/dist/js/video.js"></script>
+</head>
+
+<body style="background-color: rgba(45, 20, 90, 1);">
+    <header style="background-color: blueviolet;">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid container">
+                <a class="navbar-brand title" href="#">
+                    <img class="me-2" src="assets/img/super_cup.png" width="80" height="50" alt="跑跑卡丁車"> K.R.
+                    LEAGUE
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link a-nav" aria-current="page" href="#point">重點消息</a>
+                        <a class="nav-link a-nav" href="#team">歷屆團體冠軍</a>
+                        <a class="nav-link a-nav" href="#solo">歷屆個人冠軍</a>
+                        <a class="nav-link a-nav" href="about.html">網頁設計原由</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="video_div d-flex">
+        <video class="bg_video" src="./assets/img/2022_KR_Team.mp4" autoplay="true" muted="true" id="kr_video"></video>
+    </div>
+
+    <main class="main bg">
+        
+        <br>
+        <!--Carousel-->
+        <div class="d-flex flex-wrap align-items-center justify-content-center *justify-content-lg-start"  id="point">
+            <p class="title">－重點消息－</p>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active  upperCarousel1">
+                    <a href="https://www.youtube.com/watch?v=dRLgYvgeLkg&ab_channel=%EC%B9%B4%ED%8A%B8%EB%9D%BC%EC%9D%B4%EB%8D%94e%EC%8A%A4%ED%8F%AC%EC%B8%A0"
+                        target="_blank">
+                        <img src="assets/img/banner_01.png" class="d-block" alt="banner_01">
+                        <div class="carousel-caption d-inline d-block bgc-dark upperCarouselText"
+                            id="upperCarouselText">
+                            <h3>《2022 超級盃 跑跑卡丁車團體決賽冠軍 - Liiv SANDBOX》</h3>
+                            <p>
+                                本次的超級盃團體決賽，由續拚第五冠的Liiv SANDBOX與力求首冠的KWANGDONG
+                                FREECS，再次於決賽賽場上相見。在前兩盤平手進入車輪戰後，朴昡秀選手連拿下3人，最後靠鄭承河選手奪下隊史第五座團體賽冠軍。
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.youtube.com/watch?v=xNgzVqqcy1U&ab_channel=%EC%B9%B4%ED%8A%B8%EB%9D%BC%EC%9D%B4%EB%8D%94e%EC%8A%A4%ED%8F%AC%EC%B8%A0"
+                        target="_blank">
+                        <img src="assets/img/banner_02.png" class="d-block" alt="banner_02">
+                        <div class="carousel-caption d-inline d-block bgc-dark" id="upperCarouselText">
+                            <h3>《2022 超級盃 跑跑卡丁車個人賽冠軍 - 李宰赫》</h3>
+                            <p>本次的超級盃個人決賽尤為精彩，李宰赫與朴仁秀選手兩人竟以82分同分的情況進入最終單挑。兩位也都是觀眾賽前預測的奪冠熱門人選，終場李宰赫選手以三比一擊敗朴仁秀選手，奪下生崖第五座個人賽冠軍。
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://kartrideresports.nexon.com/KRL/Events/Contents" target="_blank">
+                        <img src="assets/img/banner_03.png" class="d-block" alt="banner_03">
+                        <div class="carousel-caption d-inline d-md-block bgc-dark" id="upperCarouselText">
+                            <h3>《2022 超級盃 跑跑卡丁車職業聯賽》</h3>
+                            <p>跑跑年末最盛大賽事超級盃隆重登場！奪冠熱門隊伍Liiv SANDBOX、KWANGDONG FREECS以及DFI BLADES，誰能搶下超級盃的冠軍呢？</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--Album 1-->
+        <div class="bg">
+            <section id="begining">
+                <div class="album py-4" id="team">
+                    <hr class="container" style="border: 2px solid blueviolet;">
+                    <div class="container" id="moveUp">
+                        <div
+                            class="d-flex flex-wrap align-items-center justify-content-center *justify-content-lg-start">
+                            <p class="title">－歷屆團體賽冠軍－</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                            <div class="div-card row-cols-1">
+                                <div class="card shadow-sm">
+                                    <a href="https://www.youtube.com/watch?v=dRLgYvgeLkg&ab_channel=%EC%B9%B4%ED%8A%B8%EB%9D%BC%EC%9D%B4%EB%8D%94e%EC%8A%A4%ED%8F%AC%EC%B8%A0"
+                                        class="text-dark text-decoration-none" target="_blank">
+                                        <img class="img-thumbnail" src="assets/img/sandbox.png">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                            <h3><b>Liiv SANDBOX</b></h3>
+                                            <p>2022 SUPER CUP</p>
+                                            <hr>
+                                            本次團體決賽，LSB與KDF再次於決賽賽場上相見。雙方在前兩盤戰至平手，最終在車輪戰環節中，朴昡秀選手連續拿下3人，再靠鄭承河選手獲勝，奪下隊史第五座團體賽冠軍。
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="div-card col">
+                                <div class="card shadow-sm">
+                                    <a href="https://www.youtube.com/watch?v=yKM2MumXOjo&ab_channel=%EC%B9%B4%ED%8A%B8%EB%9D%BC%EC%9D%B4%EB%8D%94e%EC%8A%A4%ED%8F%AC%EC%B8%A0"
+                                        class="text-dark text-decoration-none" target="_blank">
+                                        <img class="img-thumbnail" src="assets/img/sandbox.png">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                            <h3><b>Liiv SANDBOX</b></h3>
+                                            <p>2022 Season 2</p>
+                                            <hr>
+                                            以隊長朴仁秀為首，率領金勝太、朴昡秀、鄭承河及新加入的台灣選手NEAL，挑戰強敵KDF。最終在末盤車輪戰環節中，隊長朴仁秀上演ALL
+                                            KILL，順利拿下該季團體賽冠軍。
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="div-card col">
+                                <div class="card shadow-sm">
+                                    <a href="https://www.youtube.com/watch?v=2w3zdhmErEM&ab_channel=%EC%B9%B4%ED%8A%B8%EB%9D%BC%EC%9D%B4%EB%8D%94e%EC%8A%A4%ED%8F%AC%EC%B8%A0"
+                                        class="text-dark text-decoration-none" target="_blank">
+                                        <img class="img-thumbnail" src="assets/img/blades.png">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                            <h3><b>BLADES</b></h3>
+                                            <p>2022 Season 1</p>
+                                            <hr>
+                                            由傳奇選手文浩俊建立的BLADES，以柳昌賢、裵成彬、崔英勳和金智敏出戰強敵KDF。第一盤最終以柳昌賢單挑拿下，而第二盤以2 :
+                                            0搶下，終場BLADES以直落二擊敗KDF。
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="album py-4" id="solo">
+                    <hr class="container" style="border: 2px solid blueviolet;">
+                    <div class="container" id="moveUp">
+                        <div class="d-flex flex-wrap align-items-center justify-content-center *justify-content-lg-end">
+                            <p class="title">－歷屆個人賽冠軍－</p>
+                        </div>
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                            <div class="div-card col">
+                                <div class="card shadow-sm">
+                                    <a href="https://www.youtube.com/watch?v=xNgzVqqcy1U&ab_channel=%EC%B9%B4%ED%8A%B8%EB%9D%BC%EC%9D%B4%EB%8D%94e%EC%8A%A4%ED%8F%AC%EC%B8%A0"
+                                        class="text-dark text-decoration-none" target="_blank">
+                                        <img class="img-thumbnail" src="assets/img/LJH.png">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                            <h3><b>李宰赫</b></h3>
+                                            <p>2022 SUPER CUP</p>
+                                            <hr>
+                                            與朴仁秀選手兩人以82分同分的情況下進入最終單挑，終場李宰赫選手以三比一擊敗朴仁秀選手，奪下職業生崖第五座個人賽冠軍。
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="div-card col">
+                                <div class="card shadow-sm">
+                                    <a href="https://www.youtube.com/watch?v=j6tio3W6Gb8&ab_channel=%EC%B9%B4%ED%8A%B8%EB%9D%BC%EC%9D%B4%EB%8D%94e%EC%8A%A4%ED%8F%AC%EC%B8%A0"
+                                        class="text-dark text-decoration-none" target="_blank">
+                                        <img class="img-thumbnail" src="assets/img/NEAL.png">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                            <h3><b>NEAL (劉昶亨)</b></h3>
+                                            <p>2022 Season 2</p>
+                                            <hr>
+                                            在台灣已奪下多次冠軍，並於第一次參加韓國聯賽面對擁有四冠的李宰赫選手，以三比一的成績成功奪下冠軍，成為聯賽史上第一位外籍冠軍。
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="div-card col">
+                                <div class="card shadow-sm">
+                                    <a href="https://www.youtube.com/watch?v=1QXlkp4Z0zk&ab_channel=%EC%B9%B4%ED%8A%B8%EB%9D%BC%EC%9D%B4%EB%8D%94e%EC%8A%A4%ED%8F%AC%EC%B8%A0"
+                                        class="text-dark text-decoration-none" target="_blank">
+                                        <img class="img-thumbnail" src="assets/img/KDW.png">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                            <h3><b>金茶園</b></h3>
+                                            <p>2022 Season 1</p>
+                                            <hr>
+                                            2022年第一次參加聯賽的新人選手，在面對經驗老到且實力強勁的朴仁秀選手時，也絲毫不落下風，以三比一的成績，超出眾人期待奪下冠軍。
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <footer class="row p-3">
+                            <hr class="container" style="border: 1px solid blueviolet;">
+                            <p class="upperCarouselText">
+                                For Educational Purpose Only<br>
+                                Copyright © 2022 Department of Information Communcation. Yuen Ze University.</p>
+                        </footer>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <button class="js-back-to-top back-to-top" title="回到頁首"><b>&#65085;</b></button>
+    </main>
+</body>
+
+</html>
