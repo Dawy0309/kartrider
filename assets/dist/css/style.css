@@ -58,17 +58,18 @@
 .bgc-dark{
     background: rgba(0,0,0,0.5);
 }
+.navbar-nav{
+    font-weight: bold;
+}
 .a-nav, .div-card{
     font-size: 20px;
     opacity: 80%;
     transition: all .15s ease-in;
 }
-.a-nav:hover{
-    opacity: 100%;            
+.a-nav:hover{         
     transform:translateY(-2px);
 }
-.div-card:hover{
-    opacity: 100%;            
+.div-card:hover{          
     transform:translateY(-5px);
     background-color: blueviolet;
     border-radius: 5px;
